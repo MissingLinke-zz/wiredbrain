@@ -1,0 +1,8 @@
+{
+  "name": "wiredbrain",
+  "app_id": "3bb24da6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
