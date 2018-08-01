@@ -10,7 +10,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { UserServiceProvider } from '../providers/user-service/user-service';
-
+// import { AuthService } from '../providers/auth-service/auth-service';
 import { IonicStorageModule } from '@ionic/storage';
 
 import { MenuServiceProvider } from '../providers/menu-service/menu-service';
@@ -49,6 +49,7 @@ export const firebaseConfig = {
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     UserServiceProvider,
     MenuServiceProvider,
+    // AuthService,
   ]
 })
 export class AppModule {}

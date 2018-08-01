@@ -2,10 +2,45 @@ page-register {
     text-align: center;
     ion-input {
         color: color($colors, light);
+        background-color: transparent;
     }
     
-    p {
-        color: color($colors, light);
+    .item-md {
+        background-color: transparent;
+    }
+    
+    .item {
+        background-color: transparent;
     }
 
+    p {
+        color: color($colors, light);
+        background-color: transparent;
+    }
+    
+    .content {
+        background-color: white;
+    }    
+    
+    .ion-header {
+        background-image: url('../../assets/img/background.png')!important;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: white;
+        height: 80px;
+    }
+
+    .ion-footer {
+        height: 80px;
+    }
+
+    .toolbar-background {
+        background-image: url('../../assets/img/background.png')!important;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    
 }

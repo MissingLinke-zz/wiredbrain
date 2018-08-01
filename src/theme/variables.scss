@@ -31,7 +31,6 @@ $card-wp-margin-right: 0px;
 
 
 
-
 // Named Color Variables
 // --------------------------------------------------
 // Named colors makes it easy to reuse colors on various components.
@@ -45,7 +44,8 @@ $colors: (
   secondary:  #4A4A4A,
   danger:     rgb(0, 0, 0.5),
   light:      #C9DCB3,
-  dark:       #555358
+  dark:       #555358,
+  textondark:  #fff
 );
 
 
