@@ -30,6 +30,25 @@
     src: url(../assets/fonts/Raleway-Bold.ttf);
 }
 
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../assets/fonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../assets/fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../assets/fonts/Rubik-Regular.ttf);
+}
+
 .toolbar-title.toolbar-title-md, 
 .toolbar-title.toolbar-title-ios, 
 .toolbar-title.toolbar-title-wp { color: map-get($colors, textondark); }
+
+ion-content {
+    background-image: url('../assets/img/background.jpg');
+}
